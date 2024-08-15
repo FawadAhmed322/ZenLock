@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#signupFields {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

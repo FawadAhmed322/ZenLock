@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "ZenLock",
+    "description": "Password Manager App",
+    "version": "1.0",
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
+  
